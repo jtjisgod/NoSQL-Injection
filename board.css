@@ -1,0 +1,50 @@
+table {
+    border : 0px !important;
+}
+
+th {
+    color : #fff;
+    width : 150px;
+}
+
+th, td {
+    text-align : center !important;
+    vertical-align : middle !important;
+}
+
+td:nth-child(3):hover {
+    text-decoration : underline;
+    cursor : pointer;
+}
+
+#tableForm {
+    width : 900px;
+    margin : auto;
+    margin-top : 30px;
+    border-radius : 10px;
+    border : 0px !important;
+}
+
+#title {
+    text-align : center;
+    margin-top : 30px;
+    color : #fff;
+    font-weight : bold;
+}
+
+#tableForm input  {
+    color : #000;
+    text-align : left;
+    font-weight : 100;
+    font-size : 13px;
+    width : 100%;
+}
+
+#content    {
+    width : 100%;
+    padding : 10px;
+}
+
+#secret {
+    width : 100%;
+}
